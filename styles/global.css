@@ -5,11 +5,14 @@
 }
 
 html {
-  margin: 0;
+  height: 100%;
 }
 
 body {
-  width: 1100px;
+  display: flex;
+  flex-direction: column;
+  min-width: 1100px;
+  max-width: 1100px;
   margin: 0 auto;
   font-family: Raleway, sans-serif;
   font-weight: 400;
@@ -37,20 +40,4 @@ a {
 
 img {
   width: 100%;
-  height: auto;
-}
-
-button {
-  font: inherit;
-  cursor: pointer;
-  background: none;
-  border: none;
-  padding: 0;
-}
-
-input,
-textarea,
-button,
-select {
-  font: inherit;
 }
